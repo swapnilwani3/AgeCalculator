@@ -80,7 +80,7 @@ function App() {
       </form>
       <Row style={{...columnStyle, marginTop:"10%"}}>
       {
-        calAge ? (<Row><h2>Your Age is  : {calAge}year</h2></Row>) : "Press Calculate Age Button"
+        calAge ? (<Row><h2>Your Age is  : {calAge}year</h2></Row>) : "To know you Age. Press Calculate Age button"
       }
       </Row>
 
